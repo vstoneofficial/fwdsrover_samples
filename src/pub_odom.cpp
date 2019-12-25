@@ -92,7 +92,6 @@ int main(int argc, char** argv){
     odom_pub.publish(odom);
 
     last_time = current_time;
-    ros::spinOnce();
     r.sleep();
   }
 }
